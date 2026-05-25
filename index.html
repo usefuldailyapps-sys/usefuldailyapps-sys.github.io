@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Useful Daily Apps — a suite of beautifully crafted Android apps that simplify your daily life: finance, files, focus, food, and routines." />
+    <meta name="theme-color" content="#0a0a14" />
+    <meta property="og:title" content="Useful Daily Apps" />
+    <meta property="og:description" content="A suite of Android apps for the things you do every day — track your money, organize your files, focus on what matters, manage your pantry, and build routines." />
+    <meta property="og:type" content="website" />
+    <title>Useful Daily Apps — Tools for the things you do every day</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+</head>
+<body>
+    <!-- Animated background -->
+    <div class="bg-wrapper">
+        <div class="bg-orb bg-orb-1"></div>
+        <div class="bg-orb bg-orb-2"></div>
+        <div class="bg-orb bg-orb-3"></div>
+        <div class="bg-grid"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#" class="nav-brand">
+                <div class="nav-logo">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="2" y="2" width="12" height="12" rx="3" fill="url(#g1)" />
+                        <rect x="18" y="2" width="12" height="12" rx="3" fill="url(#g2)" />
+                        <rect x="2" y="18" width="12" height="12" rx="3" fill="url(#g3)" />
+                        <rect x="18" y="18" width="12" height="12" rx="3" fill="url(#g4)" />
+                        <defs>
+                            <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a855f7"/><stop offset="1" stop-color="#ec4899"/></linearGradient>
+                            <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3b82f6"/><stop offset="1" stop-color="#06b6d4"/></linearGradient>
+                            <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10b981"/><stop offset="1" stop-color="#84cc16"/></linearGradient>
+                            <linearGradient id="g4" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f59e0b"/><stop offset="1" stop-color="#ef4444"/></linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <span>Useful Daily Apps</span>
+            </a>
+            <div class="nav-links">
+                <a href="#apps" class="nav-link">Apps</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#why" class="nav-link">Why us</a>
+                <a href="https://github.com/usefuldailyapps-sys" target="_blank" rel="noopener" class="nav-link nav-cta">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                    GitHub
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero">
+        <div class="hero-container">
+            <div class="hero-badge">
+                <span class="hero-badge-dot"></span>
+                Crafted with care · 5 apps and counting
+            </div>
+            <h1 class="hero-title">
+                Tools for the things<br />
+                you do <span class="gradient-text">every day</span>.
+            </h1>
+            <p class="hero-subtitle">
+                A small, focused suite of Android apps that take the friction out of the routines you already have — your money, your files, your focus, your kitchen, your habits.
+            </p>
+            <div class="hero-actions">
+                <a href="#apps" class="btn btn-primary">
+                    <span>Explore the apps</span>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </a>
+                <a href="#about" class="btn btn-ghost">Read the story</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-value">4</div>
+                    <div class="stat-label">Live on Play Store</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">1</div>
+                    <div class="stat-label">In closed testing</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">100%</div>
+                    <div class="stat-label">Built solo, with love</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-hint">
+            <div class="scroll-line"></div>
+            <span>Scroll</span>
+        </div>
+    </header>
+
+    <!-- About / Mission -->
+    <section id="about" class="section section-about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-eyebrow">The idea</span>
+                <h2 class="section-title">Small apps. Sharp purpose.</h2>
+                <p class="section-lead">
+                    No infinite scroll. No dark patterns. No accounts you don't need. Just clean tools that do one thing well — for the parts of your day that deserve a little more clarity.
+                </p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="about-icon" style="--c: #a855f7">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                    </div>
+                    <h3>Single-purpose</h3>
+                    <p>Each app solves one real problem instead of trying to do everything badly.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon" style="--c: #06b6d4">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
+                    </div>
+                    <h3>Yours, not ours</h3>
+                    <p>Your data stays on your device whenever possible. No selling, no spying, no shouting.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon" style="--c: #10b981">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                    </div>
+                    <h3>Fast and quiet</h3>
+                    <p>Lightweight, native, no bloat. Opens in a heartbeat, gets out of your way.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon" style="--c: #f59e0b">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+                    </div>
+                    <h3>Made by a human</h3>
+                    <p>Built by one person who actually uses these apps. Feedback goes straight to the maker.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Apps Showcase -->
+    <section id="apps" class="section section-apps">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-eyebrow">The suite</span>
+                <h2 class="section-title">Five apps, five focuses.</h2>
+                <p class="section-lead">Each one is a small, sharp tool. Pick the ones you need — they're all free.</p>
+            </div>
+
+            <div class="apps-grid">
+                <!-- FinTracker -->
+                <article class="app-card" data-theme="fintracker">
+                    <div class="app-card-glow"></div>
+                    <div class="app-card-header">
+                        <div class="app-icon">
+                            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="48" height="48" rx="12" fill="url(#fin-bg)"/>
+                                <path d="M24 12v24M18 18c0-2 2-3 6-3s6 1 6 3-2 3-6 3-6 1-6 3 2 3 6 3 6-1 6-3" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+                                <defs><linearGradient id="fin-bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10b981"/><stop offset="1" stop-color="#059669"/></linearGradient></defs>
+                            </svg>
+                        </div>
+                        <div class="app-status app-status-live">
+                            <span class="status-dot"></span>Live
+                        </div>
+                    </div>
+                    <h3 class="app-name">FinTracker</h3>
+                    <p class="app-tagline">Personal finance, finally simple.</p>
+                    <p class="app-description">Track income, expenses, and savings without spreadsheets or sign-ups. See where your money actually goes — and where it's going next.</p>
+                    <ul class="app-features">
+                        <li>Quick entry — log a transaction in two taps</li>
+                        <li>Visual breakdowns by category & month</li>
+                        <li>Works offline, lives on your device</li>
+                    </ul>
+                    <a href="https://play.google.com/store/apps/details?id=com.santhoshkumr96.fintracker" target="_blank" rel="noopener" class="app-cta">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 01-.61-.92V2.734a1 1 0 01.609-.92zM14.499 12.706L17.86 16.07 5.92 22.95l8.58-10.244zM20.16 10.85a1 1 0 01.001 1.74L17.93 13.83 14.5 10.4l3.43-3.43 2.23 1.24zM5.92 1.05L17.86 7.93l-3.36 3.36L5.92 1.05z"/></svg>
+                        <span>Get on Google Play</span>
+                    </a>
+                </article>
+
+                <!-- FileTracker (DocVault) -->
+                <article class="app-card" data-theme="filetracker">
+                    <div class="app-card-glow"></div>
+                    <div class="app-card-header">
+                        <div class="app-icon">
+                            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="48" height="48" rx="12" fill="url(#file-bg)"/>
+                                <path d="M14 14h13l5 5v15a2 2 0 01-2 2H14a2 2 0 01-2-2V16a2 2 0 012-2z" stroke="white" stroke-width="2.5" stroke-linejoin="round"/>
+                                <path d="M27 14v5h5M18 26h12M18 30h12M18 22h6" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+                                <defs><linearGradient id="file-bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3b82f6"/><stop offset="1" stop-color="#1d4ed8"/></linearGradient></defs>
+                            </svg>
+                        </div>
+                        <div class="app-status app-status-live">
+                            <span class="status-dot"></span>Live
+                        </div>
+                    </div>
+                    <h3 class="app-name">FileTracker</h3>
+                    <p class="app-tagline">A vault for the documents that matter.</p>
+                    <p class="app-description">Aadhaar, PAN, passport, insurance, warranties — never dig through emails or drawers again. Your important documents, organized and one tap away.</p>
+                    <ul class="app-features">
+                        <li>Tag, group, and find documents instantly</li>
+                        <li>Expiry reminders for cards & papers</li>
+                        <li>Locked behind your device security</li>
+                    </ul>
+                    <a href="https://play.google.com/store/apps/details?id=com.santhoshkumr96.docvault" target="_blank" rel="noopener" class="app-cta">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 01-.61-.92V2.734a1 1 0 01.609-.92zM14.499 12.706L17.86 16.07 5.92 22.95l8.58-10.244zM20.16 10.85a1 1 0 01.001 1.74L17.93 13.83 14.5 10.4l3.43-3.43 2.23 1.24zM5.92 1.05L17.86 7.93l-3.36 3.36L5.92 1.05z"/></svg>
+                        <span>Get on Google Play</span>
+                    </a>
+                </article>
+
+                <!-- PantryPal -->
+                <article class="app-card" data-theme="pantrypal">
+                    <div class="app-card-glow"></div>
+                    <div class="app-card-header">
+                        <div class="app-icon">
+                            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="48" height="48" rx="12" fill="url(#pantry-bg)"/>
+                                <path d="M16 14h16v6a4 4 0 01-4 4h-8a4 4 0 01-4-4v-6zM18 24v10M30 24v10M16 34h16" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <defs><linearGradient id="pantry-bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f59e0b"/><stop offset="1" stop-color="#dc2626"/></linearGradient></defs>
+                            </svg>
+                        </div>
+                        <div class="app-status app-status-live">
+                            <span class="status-dot"></span>Live
+                        </div>
+                    </div>
+                    <h3 class="app-name">PantryPal</h3>
+                    <p class="app-tagline">Know what's in your kitchen.</p>
+                    <p class="app-description">Stop buying garam masala you already own. Track what's stocked, what's running low, and what expires this week — straight from your shelf.</p>
+                    <ul class="app-features">
+                        <li>Quick stock counts and shopping lists</li>
+                        <li>Expiry alerts so nothing goes to waste</li>
+                        <li>Built around how Indian kitchens actually work</li>
+                    </ul>
+                    <a href="https://play.google.com/store/apps/details?id=com.santhoshkumr96.pantrypal" target="_blank" rel="noopener" class="app-cta">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 01-.61-.92V2.734a1 1 0 01.609-.92zM14.499 12.706L17.86 16.07 5.92 22.95l8.58-10.244zM20.16 10.85a1 1 0 01.001 1.74L17.93 13.83 14.5 10.4l3.43-3.43 2.23 1.24zM5.92 1.05L17.86 7.93l-3.36 3.36L5.92 1.05z"/></svg>
+                        <span>Get on Google Play</span>
+                    </a>
+                </article>
+
+                <!-- OneThing -->
+                <article class="app-card" data-theme="onething">
+                    <div class="app-card-glow"></div>
+                    <div class="app-card-header">
+                        <div class="app-icon">
+                            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="48" height="48" rx="12" fill="url(#one-bg)"/>
+                                <circle cx="24" cy="24" r="10" stroke="white" stroke-width="2.5"/>
+                                <circle cx="24" cy="24" r="3" fill="white"/>
+                                <path d="M24 8v4M24 36v4M8 24h4M36 24h4" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+                                <defs><linearGradient id="one-bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f97316"/><stop offset="1" stop-color="#dc2626"/></linearGradient></defs>
+                            </svg>
+                        </div>
+                        <div class="app-status app-status-soon">
+                            <span class="status-dot"></span>Coming soon
+                        </div>
+                    </div>
+                    <h3 class="app-name">OneThing</h3>
+                    <p class="app-tagline">What's the one thing you'll do today?</p>
+                    <p class="app-description">A radically simple focus app. Pick one thing each morning. Get it done. Feel the win. No to-do list rabbit holes — just the one thing that matters.</p>
+                    <ul class="app-features">
+                        <li>One task. One day. Zero noise.</li>
+                        <li>Streaks that reward consistency, not chaos</li>
+                        <li>Built for ADHD brains and busy mornings</li>
+                    </ul>
+                    <a href="https://play.google.com/store/apps/details?id=com.santhoshkumr96.onething" target="_blank" rel="noopener" class="app-cta app-cta-soon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2" stroke-linecap="round"/></svg>
+                        <span>Launching soon</span>
+                    </a>
+                </article>
+
+                <!-- Cadence -->
+                <article class="app-card app-card-wide" data-theme="cadence">
+                    <div class="app-card-glow"></div>
+                    <div class="app-card-header">
+                        <div class="app-icon">
+                            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="48" height="48" rx="12" fill="url(#cad-bg)"/>
+                                <path d="M12 24h4l3-10 6 20 3-10h8" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <defs><linearGradient id="cad-bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a855f7"/><stop offset="1" stop-color="#ec4899"/></linearGradient></defs>
+                            </svg>
+                        </div>
+                        <div class="app-status app-status-testing">
+                            <span class="status-dot"></span>In closed testing
+                        </div>
+                    </div>
+                    <h3 class="app-name">Cadence</h3>
+                    <p class="app-tagline">Find your rhythm. Keep it.</p>
+                    <p class="app-description">A gentle habit tracker that respects how real life works. Skip a day — your streak survives. Miss a week — pick it back up. Cadence is built for the long run, not the dopamine hit.</p>
+                    <ul class="app-features">
+                        <li>Flexible streaks that don't punish you for being human</li>
+                        <li>Subtle, beautiful charts to see your trajectory</li>
+                        <li>Reminders that nudge, never nag</li>
+                    </ul>
+                    <a href="#" class="app-cta app-cta-testing" onclick="return false;">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 12l2 2 4-4M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        <span>In review · live soon</span>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why us -->
+    <section id="why" class="section section-why">
+        <div class="container">
+            <div class="why-content">
+                <span class="section-eyebrow">Why these, why now</span>
+                <h2 class="section-title">The big apps got greedy.<br />These didn't.</h2>
+                <p class="section-lead">
+                    Most apps want your attention, your data, and your subscription. These want to disappear from your home screen after they've done their job — and earn their way back tomorrow.
+                </p>
+                <div class="why-list">
+                    <div class="why-item">
+                        <div class="why-num">01</div>
+                        <div>
+                            <h4>Free, and that's that.</h4>
+                            <p>No premium tier locking the useful features. No "upgrade to unlock." Just the whole thing.</p>
+                        </div>
+                    </div>
+                    <div class="why-item">
+                        <div class="why-num">02</div>
+                        <div>
+                            <h4>No accounts. No tracking.</h4>
+                            <p>Most apps don't need an account. Most don't need to know who you are. These don't ask.</p>
+                        </div>
+                    </div>
+                    <div class="why-item">
+                        <div class="why-num">03</div>
+                        <div>
+                            <h4>You can email the maker.</h4>
+                            <p>If something is broken, missing, or annoying — say so. One person reads every message.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Footer -->
+    <section class="section section-cta">
+        <div class="container">
+            <div class="cta-card">
+                <h2 class="cta-title">Pick the one you need.<br />Forget the rest.</h2>
+                <p class="cta-subtitle">All free. All on Google Play. Try one tonight.</p>
+                <div class="cta-actions">
+                    <a href="#apps" class="btn btn-primary btn-large">Browse the apps</a>
+                    <a href="mailto:santhoshkumr96@gmail.com" class="btn btn-ghost btn-large">Say hello</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="nav-brand" style="margin-bottom:1rem;">
+                        <div class="nav-logo">
+                            <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="2" y="2" width="12" height="12" rx="3" fill="url(#g1f)" />
+                                <rect x="18" y="2" width="12" height="12" rx="3" fill="url(#g2f)" />
+                                <rect x="2" y="18" width="12" height="12" rx="3" fill="url(#g3f)" />
+                                <rect x="18" y="18" width="12" height="12" rx="3" fill="url(#g4f)" />
+                                <defs>
+                                    <linearGradient id="g1f" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a855f7"/><stop offset="1" stop-color="#ec4899"/></linearGradient>
+                                    <linearGradient id="g2f" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3b82f6"/><stop offset="1" stop-color="#06b6d4"/></linearGradient>
+                                    <linearGradient id="g3f" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10b981"/><stop offset="1" stop-color="#84cc16"/></linearGradient>
+                                    <linearGradient id="g4f" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f59e0b"/><stop offset="1" stop-color="#ef4444"/></linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <span>Useful Daily Apps</span>
+                    </div>
+                    <p class="footer-tagline">Small tools for the things you do every day.</p>
+                </div>
+                <div class="footer-col">
+                    <h5>Apps</h5>
+                    <a href="https://play.google.com/store/apps/details?id=com.santhoshkumr96.fintracker" target="_blank" rel="noopener">FinTracker</a>
+                    <a href="https://play.google.com/store/apps/details?id=com.santhoshkumr96.docvault" target="_blank" rel="noopener">FileTracker</a>
+                    <a href="https://play.google.com/store/apps/details?id=com.santhoshkumr96.pantrypal" target="_blank" rel="noopener">PantryPal</a>
+                    <a href="https://play.google.com/store/apps/details?id=com.santhoshkumr96.onething" target="_blank" rel="noopener">OneThing</a>
+                    <a href="#apps">Cadence</a>
+                </div>
+                <div class="footer-col">
+                    <h5>Project</h5>
+                    <a href="#about">About</a>
+                    <a href="#why">Why us</a>
+                    <a href="https://github.com/usefuldailyapps-sys" target="_blank" rel="noopener">GitHub</a>
+                </div>
+                <div class="footer-col">
+                    <h5>Contact</h5>
+                    <a href="mailto:santhoshkumr96@gmail.com">Email the maker</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© <span id="year"></span> Useful Daily Apps. Built solo, with love.</span>
+                <span class="footer-bottom-right">Made in India · for the world</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
